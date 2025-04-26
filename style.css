@@ -1,1 +1,60 @@
-
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(62, 66, 74);
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  /* Header */
+  header {
+    text-align: center;
+    background-color: #333;
+    color: rgb(180, 5, 5);
+    padding: 20px 0;
+  }
+  
+  header a {
+    color: #423492;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  /* About Me Section */
+  .about-me {
+    padding: 20px;
+    background-color: #e96161;
+  }
+  
+  .about-me ul {
+    list-style-type: square;
+    padding-left: 20px;
+  }
+  
+  /* Projects Section */
+  .projects {
+    padding: 20px;
+  }
+  
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .project {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .project img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
